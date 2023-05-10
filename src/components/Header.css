@@ -1,0 +1,344 @@
+
+.hero__navigation {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo__container {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo__container h2 {
+    font-size: 1.8em;
+}
+
+.jllc {
+    width: 65px;
+}
+
+
+.nav__items {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.presentation{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+
+.left__presentation {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.left__presentation .content {
+    display: block;
+    width: 100%;
+    
+}
+
+.message__bubble {
+    display: inline-block;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    height: auto;
+    background-color: var(--secondary-bg-color);
+}
+
+.triangle {
+    content: "";
+    position: absolute;
+    left: 13%;
+    border: 15px solid;
+    border-color: var(--secondary-bg-color) transparent transparent transparent;
+}
+
+.left__presentation h2 {
+    font-size: 3.5em;
+}
+
+.left__presentation .content p {
+    font-weight: 200;
+}
+
+
+
+.buttons {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+.cta__uno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--secondary-bg-color);
+  
+}
+
+.cta__uno a {
+ 
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding: 15px 20px;
+  color: var(--font-color);
+  font-size: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 2px;
+  cursor: pointer;
+  }
+
+.cta__uno a:hover {
+    background: var(--secondary-bg-color);
+    outline: none; 
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--secondary-bg-color),
+                0 0 25px var(--secondary-bg-color),
+                0 0 50px var(--secondary-bg-color),
+                0 0 100px var(--secondary-bg-color);        
+    }
+    
+.cta__dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid var(--font-color);
+}
+
+    
+.cta__dos a {
+  
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 15px 20px;
+    color: var(--font-color);
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+.cta__dos a:hover {
+        background: var(--font-color);
+        color: #000000;
+        border-radius: 10px;
+        box-shadow: 0 0 5px var(--font-color),
+                    0 0 25px var(--font-color),
+                    0 0 50px var(--font-color),
+                    0 0 100px var(--font-color);
+                   
+        }
+        
+
+        
+
+.rigth__content {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.rigth__content .content {
+    width: 90%;
+ 
+    
+}
+
+.luis {
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .nav__items {
+        display: none;
+        
+    
+    }
+
+    .presentation{
+        display: block;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .left__presentation {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        font-size: .8em;
+        
+     
+    }
+    
+
+    .message__bubble {
+        display: inline-block;
+        padding: 15px;
+        width: 180px;
+       
+        text-align: center;
+        height: auto;
+        background-color: var(--secondary-bg-color);
+    }
+    
+    .triangle {
+        content: "";
+        position: absolute;
+        left: 48%;
+        border: 15px solid;
+        border-color: var(--secondary-bg-color) transparent transparent transparent;
+    }
+    
+    .left__presentation h2 {
+        font-size: 3.5em;
+        margin-top: 15px;
+    }
+    
+    .left__presentation .content .p {
+        font-weight: 200;
+        margin-top: 10px;
+    }
+
+   
+   
+    
+
+    .rigth__content {
+        width: 100%;
+        margin-bottom: 100px;
+        
+    
+        
+    }
+
+    .buttons {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    
+    
+    .cta__uno {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      background-color: var(--secondary-bg-color);
+      
+    }
+    
+    .cta__uno a {
+      
+      display: flex;
+      justify-content: center;
+      width: 90px;
+      padding: 15px 20px;
+      color: var(--font-color);
+      font-size: 16px;
+      text-decoration: none;
+      overflow: hidden;
+      transition: .5s;
+      letter-spacing: 2px;
+      cursor: pointer;
+      }
+    
+    
+    
+}
+
+@media screen and (max-width: 375px) {
+    .left__presentation h2 {
+        font-size: 3em;
+    }
+
+    .buttons {
+        display: flex;
+        width: 250px;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .cta__uno {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        background-color: var(--secondary-bg-color);
+        
+      }
+      
+      .cta__uno a {
+        display: flex;
+        justify-content: center;
+        width: 90px;
+        padding: 15px 10px;
+        color: var(--font-color);
+        font-size: 16px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: .5s;
+        letter-spacing: 2px;
+        cursor: pointer;
+        }
+
+        .cta__dos a {
+            display: flex;
+            justify-content: center;
+            width: 90px;
+            padding: 15px 10px;
+            color: var(--font-color);
+            font-size: 16px;
+            text-decoration: none;
+            overflow: hidden;
+            transition: .5s;
+            letter-spacing: 2px;
+            cursor: pointer;
+            }
+      
+}

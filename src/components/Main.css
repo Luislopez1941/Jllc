@@ -1,0 +1,553 @@
+.main { 
+    width: 100%;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    margin: 100px 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about__me {
+    width: 50%;
+}
+
+.about__me .title {
+    font-size: 2.5em;
+}
+
+.about__me p {
+    font-weight: 200;
+}
+
+
+.progress {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; 
+    margin-top: 1.25rem; 
+}
+
+
+.progress__bar {
+    width: 100%;
+    height: 0.2rem;
+    position: relative;
+    background-color: #707070;
+}
+
+.progress__bar span {
+    height: 100%;
+    position: absolute;
+
+}
+.progress__html span {
+    background-color: var(--secondary-bg-color);
+    width: 90%;
+}
+.progress__javascript span {
+    background-color: var(--secondary-bg-color);
+    width: 80%;
+}
+.progress__react span {
+    background-color: var(--secondary-bg-color);
+    width: 80%;
+}
+.progress__nodejs span {
+    background-color: var(--secondary-bg-color);
+    width: 60%;
+}
+
+.progress__mysql span {
+    background-color: var(--secondary-bg-color);
+    width: 50%;
+}
+
+.progress__google span {
+    background-color: var(--secondary-bg-color);
+    width: 30%;
+}
+
+
+
+
+.img__about {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.img__container {
+    width: 80%;
+   
+
+}
+
+.img__container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+    color: #fff;
+    
+}
+
+.learning__container {
+    text-align: center;
+
+
+}
+.learning .text {
+    margin: 20px 0;
+    text-align: justify;
+}
+.learning h2 {
+ 
+}
+
+.cta__learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 140px;
+    margin: 0 auto;
+    background-color: var(--secondary-bg-color);
+ }
+.cta__learning a {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 15px 20px;
+    color: var(--font-color);
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 2px;
+    cursor: pointer;
+ }
+
+ .cta__learning a:hover {
+    background: var(--secondary-bg-color);
+    outline: none; 
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--secondary-bg-color),
+                0 0 25px var(--secondary-bg-color),
+                0 0 50px var(--secondary-bg-color),
+                0 0 100px var(--secondary-bg-color);        
+    }
+
+
+
+
+
+.services__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services__title .title {
+   
+    margin-bottom: 20px;
+}
+
+
+.services {
+    display: block;
+    margin: 150px 0;
+    box-sizing: border-box;
+  
+}
+
+.services__card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    margin-top: 7px;
+}
+.card {
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+    gap: 2em;
+    width: auto;
+    background-color: #111111;
+    transition: all 0.2s ease-in;
+   
+}
+.service__logo {
+    height: 60px;
+    width: 60px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.service__logo i {
+    display: flex;
+    height: 100%;
+    font-size: x-large;
+    transition: all 0.2s ease-in;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bx {
+    color: #707070;
+    
+    
+}
+
+.card:hover {
+    background-color: var(--secondary-bg-color);
+}
+.card:hover .service__logo {
+    background-color: #fff;
+}
+.card:hover .service__logo i {
+    color: #000;
+}
+
+.cta__progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 140px;
+    background-color: var(--secondary-bg-color);
+    margin-top: 30px;
+ }
+.cta__progress a {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 15px 20px;
+    color: var(--font-color);
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 2px;
+    cursor: pointer;
+ }
+
+ .cta__progress a:hover {
+    background: var(--secondary-bg-color);
+    outline: none; 
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--secondary-bg-color),
+                0 0 25px var(--secondary-bg-color),
+                0 0 50px var(--secondary-bg-color),
+                0 0 100px var(--secondary-bg-color);        
+    }
+
+
+
+
+
+.portfolio {
+    min-height: 100%;
+    width: 100%;
+    padding-bottom: 7px;
+   
+}
+
+.portfolio__title {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: center;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+    margin: 50px 0;
+}
+
+
+.proyect__gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery__categories ul li {
+    cursor: pointer;
+}
+.gallery__categories .filter-item.active {
+    border-bottom: 1px solid var(--secondary-bg-color);
+}
+
+.project__card {
+    width: 300px;
+    height: 350px;
+    display: block;
+    position: relative;
+}
+.project__card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project__card .overlay {
+    background: var(--secondary-bg-color);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.project__card .project__info {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.project__card .project__info p {
+    font-size: small;
+    margin-top: 2rem;
+}
+.project__card .project__info p a {
+    font-size: small;
+    margin-top: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--font-color);
+}
+
+.project__card .fa-arrow-right-long {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+.project__card:hover .project__info {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.project__card:hover .overlay {
+    opacity: 1;
+}
+
+
+.project__card.hide {
+    display: none;
+}
+.project__card.show {
+    animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        font-size: .9em;
+        
+    }
+    .about__me {
+        width: 100%;
+    }
+
+    .img__about {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 100px;
+      
+    }
+     
+    .learning {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    
+    }
+
+    .learning .text {
+        margin: 20px 0;
+    }
+
+    
+    .learning h2 {
+     
+    }
+
+    .portfolio {
+        min-height: 100%;
+        width: 100%;
+       
+        padding-bottom: 7px;
+       
+    }
+
+    .portfolio__title {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        text-align: center;
+        
+    }
+
+    .services__card {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 5px;
+        margin-top: 7px;
+        
+    }
+
+    .proyect__gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .gallery__categories ul li {
+        cursor: pointer;
+    }
+    .gallery__categories .filter-item.active {
+        border-bottom: 1px solid var(--secondary-bg-color);
+    }
+    
+    .project__card {
+        width: 100%;
+        height: 200px;
+        display: block;
+        position: relative;
+    }
+    .project__card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .project__card .overlay {
+        background: var(--secondary-bg-color);
+        backdrop-filter: blur(2.7px);
+        -webkit-backdrop-filter: blur(2.7px);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .project__card .project__info {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .project__card .project__info p {
+        font-size: small;
+        margin-top: 2rem;
+    }
+    
+    .project__card .fa-arrow-right-long {
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    
+    
+    .project__card:hover .project__info {
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        pointer-events: unset;
+    }
+    
+    .project__card:hover .overlay {
+        opacity: 1;
+    }
+    
+    
+    .project__card.hide {
+        display: none;
+    }
+    .project__card.show {
+        animation: fadeIn 0.5s ease;
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,98 @@
+footer {
+    margin-top: 80px;
+    padding: 70px 20px;
+  
+}
+#contact {
+  display: flex;
+  padding: 100px 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.social__media {
+  width: 33%;  
+  text-align: center;
+}
+
+.social__media h3 {
+  margin: 10px 0;
+}
+
+.social__media p {
+  margin: 5px 0;
+}
+
+
+.social__mediaIcons  {
+  font-size: 2.5em;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.social__mediaIcons i:hover {
+  color: var(--secondary-bg-color);
+}
+  
+.contact {
+  width: 33%;
+  text-align: center;
+}
+
+  .contact .phone__number {
+    margin: 10px 0;
+  }
+  
+  
+  .contact .email {
+    margin-bottom: 20px;
+  }
+
+.contact a {
+    padding: 0.5rem 1.8rem;
+    background-color: unset;
+    border: 1px solid var(--secondary-bg-color);
+    font-family: var(--font);
+    font-size: 0.9rem;
+    color: #a3a3a3;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.my__services {
+  width: 33%;
+  text-align: center;
+}
+
+.my__services p {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    display: block;
+    padding: none;
+    justify-content: space-between;
+  }
+
+  .social__media {
+    width: 100%;  
+    text-align: center;
+   
+  }
+  
+  .contact {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .my__services {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  
+}
