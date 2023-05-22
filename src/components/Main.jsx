@@ -38,11 +38,31 @@ const Main = () => {
                     para obtener una mejor comprensión de mi experiencia y habilidades.
                 </p>
                 <div className='progress'>
-                    <p>HLTM / CSS 90%</p>
+                    <p>Fingma / Adobe XD 80%</p>
+                    <div className='progress__bar progress__fa'>
+                        <span></span>
+                    </div>
+                    <p>UX/UI 70%</p>
+                    <div className='progress__bar progress__design'>
+                        <span></span>
+                    </div>
+                    <p>HLTM / CSS nativo 90%</p>
                     <div className='progress__bar progress__html'>
                         <span></span>
                     </div>
-                    <p>JavaScript 80%</p>
+                    <p>Sass 90%</p>
+                    <div className='progress__bar progress__sass'>
+                        <span></span>
+                    </div>
+                    <p>Material IU 90%</p>
+                    <div className='progress__bar progress__material'>
+                        <span></span>
+                    </div>
+                    <p>Tailwin / Bootstrap 80%</p>
+                    <div className='progress__bar progress__tb'>
+                        <span></span>
+                    </div>
+                    <p>JavaScript 85%</p>
                     <div className='progress__bar progress__javascript'>
                         <span></span>
                     </div>
@@ -50,16 +70,32 @@ const Main = () => {
                     <div className='progress__bar progress__react'>
                         <span></span>
                     </div>
-                    <p>Node.js 70%</p>
+                    <p>Redux 80%</p>
+                    <div className='progress__bar progress__redux'>
+                        <span></span>
+                    </div>
+                    <p>Next.js 80%</p>
+                    <div className='progress__bar progress__next'>
+                        <span></span>
+                    </div>
+                    <p>Node.js 80%</p>
                     <div className='progress__bar progress__nodejs'>
                         <span></span>
                     </div>
-                    <p>MySQL 50%</p>
+                    <p>APIs (Rest JSON SOAP) 70%</p>
+                    <div className='progress__bar progress__apis'>
+                        <span></span>
+                    </div>
+                    <p>SQL 50%</p>
                     <div className='progress__bar progress__mysql'>
                         <span></span>
                     </div>
                     <p>Google Cloud 30%</p>
                     <div className='progress__bar progress__google'>
+                        <span></span>
+                    </div>
+                    <p>GIT 70%</p>
+                    <div className='progress__bar progress__git'>
                         <span></span>
                     </div>
                 </div>
@@ -72,6 +108,7 @@ const Main = () => {
                     <img src={programing} alt="Foto relacionado a acerca de mí" width="100" height="100"/>
                 </div>
             </div>
+            
         </section>
         <section className='learning'>
             <div className='learning__container'>
@@ -146,6 +183,7 @@ const Main = () => {
                             <p>Proximamente</p>
                         </div>
                     </div>
+                    
                 </div>
         </section>
         <section id='portfolio' className='portfolio'>
@@ -169,7 +207,7 @@ const Main = () => {
                 </div>
                 <div className="proyect__gallery">
                     <div className="project__card tours__Web">
-                        <img src={admi_1} alt="" />
+                        <img src={admi_1} alt="" />w
                         <div className="overlay">
                         </div>
                         <div className="project__info ">

@@ -45,9 +45,30 @@
     position: absolute;
 
 }
+.progress__fa span {
+    background-color: var(--secondary-bg-color);
+    width: 80%;
+}
+.progress__design span {
+    background-color: var(--secondary-bg-color);
+    width: 70%;
+}
 .progress__html span {
     background-color: var(--secondary-bg-color);
     width: 90%;
+}
+.progress__material span {
+    background-color: var(--secondary-bg-color);
+    width: 90%;
+}
+.progress__sass span {
+    background-color: var(--secondary-bg-color);
+    width: 90%;
+}
+
+.progress__tb span {
+    background-color: var(--secondary-bg-color);
+    width: 80%;
 }
 .progress__javascript span {
     background-color: var(--secondary-bg-color);
@@ -57,9 +78,23 @@
     background-color: var(--secondary-bg-color);
     width: 80%;
 }
+
+.progress__redux span {
+    background-color: var(--secondary-bg-color);
+    width: 80%;
+}
+
+.progress__next span {
+    background-color: var(--secondary-bg-color);
+    width: 80%;
+}
 .progress__nodejs span {
     background-color: var(--secondary-bg-color);
-    width: 60%;
+    width: 80%;
+}
+.progress__apis span {
+    background-color: var(--secondary-bg-color);
+    width: 70%;
 }
 
 .progress__mysql span {
@@ -70,6 +105,11 @@
 .progress__google span {
     background-color: var(--secondary-bg-color);
     width: 30%;
+}
+
+.progress__git span {
+    background-color: var(--secondary-bg-color);
+    width: 70%;
 }
 
 
